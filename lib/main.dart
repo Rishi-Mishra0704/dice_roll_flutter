@@ -4,8 +4,8 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        body: Container(
-          decoration: const BoxDecoration(
+        body: Container( // app body
+          decoration: const BoxDecoration( // BoxDecoration to style the container
             gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
@@ -14,8 +14,8 @@ void main() {
           ),
           child: const Center(
             child: Text(
-              "Hello world!!!",
-              style: TextStyle(
+              "Hello world!!!", // Text to display
+              style: TextStyle( // TextStyle to style the text
                 fontSize: 40,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
