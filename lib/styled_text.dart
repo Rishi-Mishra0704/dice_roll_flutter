@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 
 class StyledText extends StatelessWidget {
-  const StyledText({super.key});
+  const StyledText(this.text, {super.key});
+
+  final String text;
+
   @override
   Widget build(context) {
-    return const Text(
-      "Hello world!!!", // Text to display
-      style: TextStyle(
+    return Text(
+      text, // Text to display
+      style: const TextStyle(
         // TextStyle to style the text
         fontSize: 40,
         fontWeight: FontWeight.bold,
