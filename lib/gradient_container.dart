@@ -14,8 +14,6 @@ class GradientContainer extends StatelessWidget {
   // final Color color1;
   // final Color color2;
 
-  void rollDice() {}
-
   @override
   Widget build(context) {
     // alternate way to return a container with two colors
